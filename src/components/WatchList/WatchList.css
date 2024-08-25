@@ -1,0 +1,17 @@
+.watchlist-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.watchlist-card img {
+    display: flex;
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.watchlist-card-delete {
+    color: blue;
+    cursor: pointer;
+}

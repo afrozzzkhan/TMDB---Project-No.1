@@ -49,7 +49,7 @@ function MovieCard({movie}){
 
             <Link to={`/details/${movie.id}`}>
 
-                    i
+                    Details 
             </Link>
               
 
@@ -57,7 +57,7 @@ function MovieCard({movie}){
                 {movie.title}
             </div>
             
-            {doesContain() ? (<button onClick={deleteFWatchList}>Remove</button>) : (<button onClick={addToWatchList} >Add</button>) }
+            {doesContain() ? (<button onClick={deleteFWatchList}>Remove to watchlist</button>) : (<button onClick={addToWatchList} >Add to watchlist</button>) }
         </div>
     )
 }

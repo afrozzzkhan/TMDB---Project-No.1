@@ -11,8 +11,32 @@
 .details-banner-title {
     position: absolute;
     color: white;
-    bottom: 50px;
+    bottom: 120px;
     left: 50%;
     font-size: 30px;
     transform: translateX(-50%);
+    background-color: black;
+
+}
+
+.details-banner-genre {
+    position: absolute;
+    color: white;
+    bottom: 80px;
+    left: 50%;
+    font-size: 30px;
+    transform: translateX(-50%);
+}
+
+.details-banner-trailer {
+    position: absolute;
+    /* color: white; */
+    bottom: 30px;
+    left: 50%;
+    font-size: 30px;
+    transform: translateX(-50%);
+    background-color: red;
+    border:solid;
+    border-color:black;
+
 }
